@@ -1,0 +1,75 @@
+# Hardware Requirements
+
+## Overview
+
+The Fishery Onboard Edge Server is designed to run reliably in a maritime environment and support multiple onboard services.
+
+The server must operate continuously and handle authentication, database storage, billing services, and data synchronization.
+
+---
+
+# Recommended Hardware Configuration
+
+## CPU
+
+Minimum:
+
+- 4 cores
+
+Recommended:
+
+- 8 cores
+
+Examples:
+
+- Intel Core i5 / i7
+- AMD Ryzen 5 / Ryzen 7
+
+---
+
+## Memory
+
+Minimum:
+
+16 GB RAM
+
+Recommended:
+
+32 GB RAM
+
+This allows simultaneous operation of:
+
+- PostgreSQL
+- FreeRADIUS
+- Web services
+- synchronization processes
+
+---
+
+## Storage
+
+System disk:
+
+- 1 TB NVMe SSD
+
+Data disk:
+
+- 2 TB NVMe SSD
+
+Recommended configuration:
+
+RAID1 for redundancy.
+
+---
+
+## Network Interfaces
+
+Minimum:
+
+2 Ethernet interfaces
+
+Recommended:
+
+4 Ethernet interfaces
+
+Example usage:
