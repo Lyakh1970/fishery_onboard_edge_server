@@ -1,0 +1,21 @@
+fishery_onboard_edge_server
+│
+├ README.md
+│
+├ docs
+│   ├ hardware_requirements.md
+│   ├ system_overview.md
+│   └ network_architecture.md
+│
+├ architecture
+│   ├ services.md
+│   └ data_flow.md
+│
+├ configs
+│   ├ radius
+│   ├ postgres
+│   └ portal
+│
+└ scripts
+    ├ install
+    └ maintenance
